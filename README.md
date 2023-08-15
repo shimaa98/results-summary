@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/shimaa98/result-summary.git)
-- Live Site URL: (https://result-summary-sigma.vercel.app/)
+- Solution URL: (https://github.com/shimaa98/results-summary.git)
+- Live Site URL: (https://results-summary-hvmrrsre9-shimaa98.vercel.app)
 
 ## My process
 
