@@ -1,0 +1,135 @@
+* {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+/* summary-section style */
+.summary-section {
+  padding-top: 40px;
+  background-color: hsl(0, 0%, 100%);
+}
+h3 {
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+.visual {
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+.visual p,
+.verbal p,
+.memory p,
+.reaction p {
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+.memory {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+.reaction {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+.visual,
+.verbal,
+.memory,
+.reaction {
+  height: 60px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.reaction-color {
+  color: hsl(0, 100%, 67%);
+}
+.memory-color {
+  color: hsl(39, 100%, 56%);
+}
+.verbal-color {
+  color: hsl(166, 100%, 37%);
+}
+.visual-color {
+  color: hsl(234, 85%, 45%);
+}
+.alpa {
+  opacity: 0.3;
+}
+.btn {
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-size: 22px;
+  margin-top: 30px;
+  height: 60px;
+  border-radius: 30px;
+  font-weight: 800;
+}
+.btn:hover {
+  background-color: hsl(241, 81%, 54%);
+  color: hsl(0, 0%, 100%);
+}
+
+/* .result-section style */
+.result-section {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  margin-right: 5%;
+  border-radius: 0 0 30px 30px;
+}
+.result-title {
+  color: hsla(0, 0%, 100%, 0.7);
+}
+.score {
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 40px auto 30px;
+}
+.score-part-one {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 0;
+  height: 50%;
+  line-height: 125px;
+}
+.score-part-two {
+  margin-bottom: 0;
+  height: 50%;
+  margin-top: 0;
+  font-size: 16px;
+  color: hsla(0, 0%, 100%, 0.5);
+  line-height: 60px;
+}
+.title {
+  font-weight: 700;
+  font-size: 28px;
+}
+.description {
+  margin: 10px auto 40px;
+  padding: 5px;
+  font-size: 18px;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+@media (min-width: 992px) {
+  .result-section {
+    border-radius: 30px;
+    margin-left: 30px;
+  }
+}
